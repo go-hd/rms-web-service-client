@@ -1,7 +1,7 @@
 {
   "name": "rms-web-service-client",
   "version": "1.0.0",
-  "description": "JavaScript cleient for RMS Web Service.",
+  "description": "JavaScript client for RMS Web Service.",
   "scripts": {
     "test": "mocha"
   },
@@ -10,8 +10,10 @@
   "author": "Kawamoto Yuto",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
     "assert": "^2.0.0",
-    "axios": "^0.19.2",
     "dotenv": "^8.2.0",
     "mocha": "^8.0.1"
   }
